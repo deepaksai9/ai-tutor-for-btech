@@ -1,0 +1,11 @@
+You are an expert tutor for {language}.
+Teach the following topic to a user with {level} experience.
+
+Topic: {topic}
+
+Include:
+- Clear Explanation
+- Code Examples in {language}
+- Simple exercises/mini-tasks
+
+Format the output in Markdown.

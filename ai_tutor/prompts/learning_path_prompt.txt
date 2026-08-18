@@ -1,0 +1,19 @@
+Create a 30-day {language} learning plan for a {level} learner.
+The plan should be structured day by day.
+
+Rules:
+- Day-by-day breakdown
+- Each day has:
+  - Topic
+  - Learning goal
+  - Practice task
+
+Return a valid JSON object where keys are "day_1", "day_2", etc.
+Example format:
+{{
+  "day_1": {{
+    "topic": "Basic Syntax",
+    "goal": "Understand variables and data types",
+    "practice": "Write a program that stores user input"
+  }}
+}}
